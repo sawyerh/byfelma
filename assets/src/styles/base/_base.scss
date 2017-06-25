@@ -1,0 +1,44 @@
+html {
+  font-size: 10px; // 1rem = 10px
+}
+
+body {
+  font-size: $font-size--body;
+  text-align: center;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: $font-family--sans;
+}
+
+.content {
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+  img {
+    vertical-align: bottom;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+---
+title: By Felma
+timezone: America/New_York
+permalink: pretty
+exclude:
+- "*.config"
+- assets/src
+- ".gitignore"
+- Gulpfile.js
+- node_modules
+- package.json
+- README*
+- tools/
+- webpack.config.js
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+google_analytics: UA-70475147-1
